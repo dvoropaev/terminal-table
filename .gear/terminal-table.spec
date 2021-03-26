@@ -11,7 +11,7 @@ Packager:  Dmitriy Voropaev <voropaevdmtr@altlinux.org>
 BuildArch: noarch
 
 Source:  %name-v%version.tar
-
+Patch: %name-v%version-%release.patch
 BuildRequires(pre): rpm-build-ruby
 
 %description
@@ -28,6 +28,7 @@ Documentation files for %name.
 
 %prep
 %setup -n %name-v%version
+%autopatch -p1
 %update_setup_rb
 
 %build
