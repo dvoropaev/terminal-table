@@ -1,0 +1,6 @@
+object 50f2dfc58c970277dd019b3502977471c0a0114d
+type commit
+tag v3.0.0
+tagger Nate Berkopec <nate.berkopec@gmail.com> 1611777802 -0700
+
+Version 3.0.0
